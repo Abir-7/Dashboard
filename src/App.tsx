@@ -20,6 +20,7 @@ X
      <Link className="link" to={'/dashboard/supplies'}>Supplies</Link>
      <Link className="link" to={'/dashboard/create-supply'}>Create Supply</Link>
      <Link className="link" to={'/dashboard/leaderboard'}>Leaderboard</Link>
+     <Link className="link" to={'/dashboard/create-testimonial'}>Testimonial</Link>
   </div>
 </div>
 <div className="mainContain" onClick={isActive?()=>setIsActive(!isActive):()=>null}>

@@ -5,6 +5,7 @@ import App from "../App";
 import AllSupplies from "../Pages/AllSupplies/AllSupplies";
 import CreateSupply from "../Pages/CreateSupply/CreateSupply";
 import TopDonors from "../Pages/TopDonors/TopDonors";
+import Testimonial from "../Pages/Testimonial/Testimonial";
 
 
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
           {
             path: "/dashboard/leaderboard",
             element: <TopDonors/>,
+          },
+          {
+            path: "/dashboard/create-testimonial",
+            element: <Testimonial/>,
           },
         ],
       },
